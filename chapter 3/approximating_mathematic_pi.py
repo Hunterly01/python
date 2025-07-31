@@ -1,0 +1,1 @@
+print("one terms\ttwo terms\tthree terms")
