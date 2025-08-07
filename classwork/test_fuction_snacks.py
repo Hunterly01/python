@@ -30,4 +30,8 @@ class TestCaseFutureAmount(unittest.TestCase):
 	def test_that_future_amount_is_correct_future_amount(self):
 		future_amount = function_snacks.get_future_amount(100, 10, 2)
 		self.assertEqual(future_amount,  221)
+
+
+
+
 	
