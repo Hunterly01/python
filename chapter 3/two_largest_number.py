@@ -1,16 +1,15 @@
-numberone = int(input("Enter an integer:"))
-largest = numberone
-smallest = numberone
-secondLargest = numberone;
-for count in range(9):
+
+largest = 0;
+secondLargest = 0;
+for count in range(10):
 	number = int(input("Enter an integer:"))
 	if(number > largest):
+		secondLargest = largest
 		largest = number
-	if(number < smallest):
-		smallest = number
+	elif number > secondLargest and largest != number:
+		secondLargest = number
 		
 print(largest)
-print(smallest)
+print(secondLargest)
 
 
-	
